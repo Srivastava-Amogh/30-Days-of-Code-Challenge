@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Events</title>
+</head>
+<body>
+<section>
+    <h1>Event Schedule</h1>
+    <table border="2">
+        <thead>
+            <tr>
+            <th>Time</th>
+            <th>Activity</th>
+            <th>Venue</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 AM</td>
+                <td>Breakfast</td>
+                <td>Canteen</td>
+            </tr>
+            <tr>
+                <td>10:00 AM</td>
+                <td>Physics Class</td>
+                <td>Central Garden</td>
+            </tr>
+            <tr>
+                <td>12:00 PM</td>
+                <td>Tea Break</td>
+                <td>Tea Stall</td>
+            </tr>
+        </tbody>
+    </table>
+</section> 
+<section>
+    <form action="submit.html" method="post">
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age"><br><br>
+
+    <label for="date">Event Date:</label><br>
+    <input type="date" id="date" name="date"><br><br>
+
+    <p>Ticket Type:</p>
+    <input type="radio" id="basic" name="ticket" value="basic">
+    <label for="basic">Basic</label><br>
+
+    <input type="radio" id="standard" name="ticket" value="standard">
+    <label for="standard">Standard</label><br>
+
+    <input type="radio" id="vip" name="ticket" value="vip">
+    <label for="vip">VIP</label><br><br>
+
+    <p>Workshops:</p>
+    <input type="checkbox" id="web" name="workshop" value="web">
+    <label for="web">Web Dev</label><br>
+
+    <input type="checkbox" id="ai" name="workshop" value="ai">
+    <label for="ai">AI</label><br>
+
+    <input type="checkbox" id="cp" name="workshop" value="cp">
+    <label for="cp">CP</label> <br>
+<button type="submit">Register</button>
+</form>
+</section>   
+</body>
+</html>
